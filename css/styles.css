@@ -93,7 +93,7 @@ h2 {
 }
 
 
-@media (max-width:699px){
+@media screen and (max-width:699px){
 
     .page__header{
         position: fixed;
@@ -174,7 +174,7 @@ h2 {
 
 }
 
-@media (min-width:700px) and (max-width:999px){
+@media screen and (min-width:700px) and (max-width:999px){
 
     .page__header{
         position: fixed;
@@ -184,7 +184,7 @@ h2 {
 }
 
 
-@media (min-width: 1000px){
+@media screen and (min-width: 1000px){
     .page__header{
         position: fixed;
         width: 20%;
