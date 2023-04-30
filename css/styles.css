@@ -115,7 +115,7 @@ section{
 }
 
 
-@media (max-width:799px){
+@media (max-width:699px){
 
     .page__header{
         position: fixed;
@@ -217,18 +217,19 @@ section{
 
 }
 
-@media screen and (min-width:800px) and (max-width:999px){
+@media screen and (min-width:700px) and (max-width:999px){
 
     .page__header{
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         z-index: 1;
         background-color: rgba(255,255,255,0.7);
-        padding-bottom: 20px;
+        padding: 3vmax;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
         align-items: center;
     }
 
@@ -237,20 +238,15 @@ section{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 65vw;
-        margin: auto;
-        margin-top: 5vw;
     }
 
     h1 {
         margin: auto;
-        padding: 5px;
+        padding: 15px;
+        font-size: 2.5em;
     }
 
     .navbar__menu {
-        width: 90%;
-        margin:auto;
-        margin-top: 5vw; 
         padding: 0;
     }
 
@@ -260,8 +256,9 @@ section{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        width: 50vw;
+        height: 6em;
         padding: 0;
-        height: 10vh;
         margin: 0;
     }
 
@@ -272,12 +269,13 @@ section{
     main{
         position: relative;
         z-index: 0;
-        margin-top: 30vh;
+        margin-top: 10vmax;
+        padding: 7vmax;
     }
 
     section {
         margin: 40px 10px;
-        padding: 10px;
+        padding: 2vmin;
         border-radius: 130px 50px 50px 50px;
         transition: border-radius 0.2s ease;
     }
@@ -291,15 +289,15 @@ section{
     }
 
     h2 {
-        width: 70%;
-        padding: 10px;
-        margin: 20px 0 0 0;
-        line-height: 1.2em;
+       width: 40vw;
+       line-height: 1.5em;
+       padding: 0.5em;
+       margin: auto;
     }
 
     .blurb{
         width: 90%;
-        padding: 20px;
+        padding: 3vmax;
         margin: 0;
         padding-bottom: 0;
     }
