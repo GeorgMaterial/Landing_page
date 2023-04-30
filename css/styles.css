@@ -66,7 +66,8 @@ h2 {
 section{
     border: 5px solid var(--blue);
     z-index: -1;
-    border-radius: 4px;
+    border-radius: 130px 50px 50px 50px;
+    transition: border-radius 0.2s ease;
 }
 
 
@@ -176,8 +177,6 @@ section{
     section {
         margin: 40px 10px;
         padding: 10px;
-        border-radius: 130px 50px 50px 50px;
-        transition: border-radius 0.2s ease;
     }
 
     .landing__container{
@@ -274,10 +273,11 @@ section{
     }
 
     section {
-        margin: 40px 10px;
-        padding: 2vmin;
+        margin: 5em 10px;
+        padding: 3vmin;
         border-radius: 130px 50px 50px 50px;
         transition: border-radius 0.2s ease;
+        border-width: 10px;
     }
 
     .landing__container{
@@ -296,10 +296,11 @@ section{
     }
 
     .blurb{
-        width: 90%;
-        padding: 3vmax;
-        margin: 0;
-        padding-bottom: 0;
+        width: 60%;
+        margin: 2.5em;
+        padding: 5vw;
+        border-radius: 100px;
+        border: 5px double var(--green);
     }
 
     .landing__container button {
@@ -309,9 +310,7 @@ section{
     }
 
     .separator {
-        width: 75%;
-        height: 3px;
-        margin: 25px;
+        display: none;
     }
 
 
