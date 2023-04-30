@@ -82,6 +82,11 @@ for (let section of sections__el){
         let lyrics = link.section.querySelector('.lyrics') ;
         lyrics.toggleAttribute('active');
         link.lyric_button.toggleAttribute('active');
+        if (lyrics.hasAttribute('active')){
+            link.lyric_button.innerHTML = "<em>Hide Lyrics</em>" ;
+        } else {
+            link.lyric_button.innerHTML = "<em>View Lyrics</em>" ;
+        }
     })
 }  
 
