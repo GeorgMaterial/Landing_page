@@ -30,11 +30,13 @@ button {
     list-style-type: none;
 }
 
+
 .nav__button {
     background-color: var(--yellow); 
     border-radius: 3px;
     border: none;
     transition: background-color 0.6s;
+    color: black;
 }
 
 .__active.nav__button{
@@ -224,6 +226,10 @@ section{
         z-index: 1;
         background-color: rgba(255,255,255,0.7);
         padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .main__hero {
@@ -233,18 +239,19 @@ section{
         align-items: center;
         width: 65vw;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 5vw;
     }
 
     h1 {
         margin: auto;
-        padding: 15px 5px;
+        padding: 5px;
     }
 
     .navbar__menu {
         width: 90%;
-        margin: auto;
-        height: 4em;
+        margin:auto;
+        margin-top: 5vw; 
+        padding: 0;
     }
 
     #navbar__list {
@@ -252,17 +259,20 @@ section{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         padding: 0;
+        height: 10vh;
+        margin: 0;
     }
 
     #navbar__list li{
-        margin: 5px;
+        margin: 1vw;
     }
 
     main{
         position: relative;
         z-index: 0;
-        margin-top: 25vh;
+        margin-top: 30vh;
     }
 
     section {
@@ -305,7 +315,6 @@ section{
         height: 3px;
         margin: 25px;
     }
-
 
 
 }
