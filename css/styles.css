@@ -67,6 +67,10 @@ section{
     z-index: -1;
 }
 
+section.__active h2{
+    background-color: #82DA00;
+}
+
 
 
 .landing__container button {
